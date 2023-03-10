@@ -1,0 +1,24 @@
+.userpage-container {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: repeat(12, 1fr);
+}
+.userpage-container .sidebar-container {
+  grid-column: 1/3;
+  background-image: linear-gradient(#f1f5f9, #cbd5e1);
+  min-width: 200px;
+}
+.userpage-container .content-container {
+  padding: 10px;
+  grid-column: 3/13;
+}
+
+@media screen and (max-width: 800px) {
+  .userpage-container {
+    display: flex;
+  }
+  .userpage-container .sidebar-container {
+    display: none;
+  }
+}/*# sourceMappingURL=userpage.css.map */

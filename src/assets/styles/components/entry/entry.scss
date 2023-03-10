@@ -1,0 +1,49 @@
+@import "../../variables";
+.entry-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px $slate-900;
+    overflow: hidden;
+    opacity: 0;
+    animation: fade-in 1s linear forwards;
+    .img-container{
+        display: none;
+       img{
+        width: 100%;
+        height: auto;
+        opacity: 0;
+        animation: fade-in-top 1s linear forwards;
+        animation-delay: 0.5s;
+        padding: 5px;
+       }
+
+    }
+    .form-container{
+        padding: 5px;
+        background-color: $slate-200;
+       
+        form {
+            animation: fade-in-right 1s linear forwards;
+        }
+        p {
+            animation: fade-in-bottom 1s linear forwards;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .entry-container{
+        max-width: 1000px;
+        grid-template-columns: repeat(2, 1fr);
+        .img-container{
+            display: flex;
+            align-items: center;
+        }
+        .form-container{
+            padding: 30px 5px 100px 5px;
+        }
+    }
+}
+

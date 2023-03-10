@@ -1,0 +1,73 @@
+@import "../variables";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.link{
+    text-decoration: underline;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+fieldset{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $slate-900;
+    border-radius: 5px;
+    gap: 5px;
+    input, button{
+        padding: 5px;
+    }
+}
+
+.sidebar{
+    padding: 10px;
+    text-align: center;
+    animation: fade-in-bottom 1s ease-in forwards;
+    button{
+        margin-top: 10px;
+    }
+}
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fade-in-top {
+    0%{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fade-in-bottom {
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fade-in-right {
+    0%{
+        opacity: 0;
+        transform: translateX(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

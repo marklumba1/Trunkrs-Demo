@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "email": "marklumba@gmail.com",
+      "password": "$2a$10$dF.SIY4BqrMlADHAKQAUweh3EMGjVta0wEzFxGZ5NC2uRQnU1i1BG",
+      "firstName": "Mark",
+      "lastName": "Lumba",
+      "age": "27",
+      "id": 1
+    },
+    {
+      "email": "marklumba1@gmail.com",
+      "password": "$2a$10$A6xM6NzTwqLbnzzDXxCTE./JIY6Hg1dho7Lb1rwOBmF7uMEHjbxmG",
+      "firstName": "",
+      "lastName": "",
+      "age": "",
+      "id": 2
+    },
+    {
+      "email": "marklumba2@gmail.com",
+      "password": "$2a$10$/Z1uEvrpuaUkEFALModndem..aPkIRtxeoTsBfXKD4PTWhASu8ByC",
+      "firstName": "Mark",
+      "lastName": "Lumba",
+      "age": "27",
+      "id": 3
+    },
+    {
+      "email": "marklumba23@gmail.com",
+      "password": "$2a$10$aMA2U8fzn8DrqlT4y2HWJ.5/88XdOqVKG2xJ1t0LzAJXhNxToI6DG",
+      "firstName": "Mark",
+      "lastName": "Lumba",
+      "age": "23",
+      "id": 4
+    },
+    {
+      "email": "marklumba3@gmail.com",
+      "password": "$2a$10$.qV40JCT/.8yKkAPmkVBKOXBxCkJIcxuz6ugY5eFhPjzRSIFvlz0y",
+      "firstName": "Mark",
+      "lastName": "Lumba",
+      "age": "23",
+      "id": 5
+    }
+  ],
+  "deliveries": []
+}

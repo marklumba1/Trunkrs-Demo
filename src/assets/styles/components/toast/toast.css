@@ -1,0 +1,23 @@
+.toast-container {
+  padding: 5px;
+  border-radius: 5px;
+  animation: fade-in 200ms linear forwards;
+}
+
+.error {
+  background-color: rgba(255, 0, 0, 0.281);
+  border: 1px solid red;
+  color: rgb(133, 0, 0);
+}
+
+.loading {
+  background-color: rgba(255, 251, 0, 0.281);
+  border: 1px solid yellow;
+  color: rgb(32, 32, 0);
+}
+
+.success {
+  background-color: rgba(0, 255, 0, 0.281);
+  border: 1px solid green;
+  color: rgb(3, 32, 0);
+}/*# sourceMappingURL=toast.css.map */
